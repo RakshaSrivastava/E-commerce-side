@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Raksh's website</h1>
+        <div class="cart">
+            🛒 Cart <span id="cart-count">0</span>
+        </div>
+    </header>
+
+    <main>
+        <section class="products">
+            <div class="product">
+                <img src=https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS-Q_MiyURdGOapImgcNZSGs8ocymOZpBCUn5QLxhj08tiKwknL1H71DY6htwQhiLJm1oeJ-UMJSk61RWOAZmd89TC8Vfgq3bM5pDEwdDXsFsRGm8NYkUVoTw alt="Product 1">
+                <h3>Product 1</h3>
+                <p>$10</p>
+                <button class="add-to-cart" data-name="Product 1" data-price="10">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src=https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSHD6O1yflke-v3yg2xiRMNsjzM8ECmtUWbCoqjL2HfynsXCARyC-YM2hkSXqNmSkG8j7Z2kr5nCyO5S8L3okvyYT9P66x1KOL-_uVTBqtgxV5b913qu0kC alt="Product 2">
+                <h3>Product 2</h3>
+                <p>$15</p>
+                <button class="add-to-cart" data-name="Product 2" data-price="15">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src=https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRv35-5JI2e2nHUMQ-JlsSCTrKwG33o704W-tWGM3uQPq3aYo0F7qO4Ab3F24B_D83ju9nWgQZT9kte8XZmY8qF3UFXfUHgPnF3yAOmNty2BscI_Kz5hRhr6w alt="Product 3">
+                <h3>Product 3</h3>
+                <p>$20</p>
+                <button class="add-to-cart" data-name="Product 3" data-price="20">Add to Cart</button>
+            </div>
+        </section>
+    </main>
+
+    <section class="cart-details" id="cart-details">
+        <h2>Add to cart</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: $<span id="cart-total">0</span></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
